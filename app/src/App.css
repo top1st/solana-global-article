@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  font-family: 'roboto';
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.title-container {
+  width: 100%;
+}
+.main-title {
+  margin-bottom: 0;
+}
+.main-subtitle {
+  margin-top: 0;
+}
+.wallet-connect {
+  width: 200px;
+}
+.content-box {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.solana-image {
+  width: 70px;
+  margin-top: 7px;
+}
+.three-words-input-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.words-input {
+  width: 410px;
+}
+.helper-description {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  color: #808080;
+  font-size: 10pt;
+}
+@media (max-width: 500px) {
+  .three-words-input-container {
+    flex-direction: column;
+  }
+  .three-words-input-container .submit-button {
+    margin-top: 20px;
+  }
+  .three-words-input-container .words-input {
+    width: 100%;
+  }
+}
