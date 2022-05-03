@@ -2,12 +2,14 @@
 seeds = false
 [programs.localnet]
 solana_global_article = "zaR6MXmj1DjeCdNBix6R6CA53H6rRXRoiBh4LEAvP2G"
+[programs.devnet]
+solana_global_article = "zaR6MXmj1DjeCdNBix6R6CA53H6rRXRoiBh4LEAvP2G"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/home/ubuntu/.config/solana/id.json"
 
 [scripts]
